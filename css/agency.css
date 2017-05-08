@@ -11,7 +11,7 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: #cf0041; }
   a:hover, a:focus, a:active, a.active {
     color: #fec503; }
 
@@ -45,11 +45,11 @@ section {
 
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136; }
+  background: #cf0041; }
 
 ::selection {
   text-shadow: none;
-  background: #fed136; }
+  background: #cf0041; }
 
 img::selection {
   background: transparent; }
@@ -58,14 +58,14 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #fed136; }
+  -webkit-tap-highlight-color: #cf0041; }
 
 #mainNav {
   background-color: #222222; }
   #mainNav .navbar-toggler {
     border: 0;
     color: white;
-    background-color: #fed136;
+    background-color: #cf0041;
     font-size: 12px;
     text-transform: uppercase;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -75,10 +75,10 @@ body {
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
-      color: #fed136;
+      color: #cf0041;
       font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
-        color: #fec503; }
+        color: #CF0041; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
       font-size: 90%;
       padding: 0.75em 0;
@@ -88,7 +88,7 @@ body {
       letter-spacing: 1px;
       color: white; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-        color: #fed136; }
+        color: #cf0041; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -113,7 +113,7 @@ body {
         font-size: 1.25em; } }
 
 header.masthead {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -331,7 +331,7 @@ header.masthead {
       height: 80px;
       position: absolute;
       z-index: 100;
-      background-color: #fed136;
+      background-color: #cf0041;
       color: white;
       border-radius: 100%;
       border: 7px solid #f1f1f1;
@@ -451,7 +451,7 @@ section#contact {
     section#contact .form-group textarea.form-control {
       height: 236px; }
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #cf0041;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -511,15 +511,15 @@ ul.social-buttons {
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
     ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-      background-color: #fed136; }
+      background-color: #cf0041; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #cf0041 !important; }
 
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #cf0041;
+  border-color: #cf0041;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
@@ -550,16 +550,16 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary:hover,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary.focus {
-    background-color: #fed136;
-    border-color: #fed136; }
+    background-color: #cf0041;
+    border-color: #cf0041; }
   .btn-primary .badge {
-    color: #fed136;
+    color: #cf0041;
     background-color: white; }
 
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #cf0041;
+  border-color: #cf0041;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -593,8 +593,8 @@ ul.social-buttons {
   fieldset[disabled] .btn-xl:hover,
   fieldset[disabled] .btn-xl:focus,
   fieldset[disabled] .btn-xl.focus {
-    background-color: #fed136;
-    border-color: #fed136; }
+    background-color: #cf0041;
+    border-color: #cf0041; }
   .btn-xl .badge {
-    color: #fed136;
+    color: #cf0041;
     background-color: white; }
