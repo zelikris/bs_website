@@ -30,13 +30,36 @@
     <link href="css/agency.css" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="img/bs-icon.png">
+
+  <!--   <style> 
+        #infobar {
+            height: 40px;
+            background: blue;
+            width: 400px;
+            margin-left: auto;
+        }
+    </style> -->
 </head>
 
 <body id="page-top">
 
+    <!-- Info Bar -->
+    <nav style="z-index: 10000;" class="fixed-top navbar-toggleable-md navbar-inverse">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <h4 class="nav-link">###-###-####</h4>
+                    </li>
+    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
-        <div class="container">
+        <div class="container" style="position: relative; top: 20px;">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fa fa-bars"></i>
             </button>
